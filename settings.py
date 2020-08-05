@@ -1,0 +1,13 @@
+BOARD_SIZE = 4
+BOARD_RANGE = [i for i in range(BOARD_SIZE)]
+WIN_VALUE = 2048
+LEFT_MOVE = 'a'
+RIGHT_MOVE = 'd'
+UP_MOVE = 'w'
+DOWN_MOVE = 's'
+valid_moves = [LEFT_MOVE, RIGHT_MOVE, UP_MOVE, DOWN_MOVE]
+horizontal_moves = [LEFT_MOVE, RIGHT_MOVE]
+tile_value_reg = 2
+tile_value_uniq = 4
+reg_weight = 9
+uniq_weight = 1
